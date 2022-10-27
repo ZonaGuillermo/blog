@@ -12,12 +12,5 @@ También funciona con otros lenguajes como _HTML, CSS, Sass, typescript, Python,
 _Lenguaje HTML_  
 ![better-comments-html](/_images/better-comments-html.png)  
 
-<br>
-
 _Lenguaje CSS_  
 ![better-comments-css](/_images/better-comments-css.png)  
-
-
-Vamos a probar un cambio
-
-Otro cambio más
