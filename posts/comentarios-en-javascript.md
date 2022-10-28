@@ -1,3 +1,21 @@
+---
+
+title: Comentarios en JavaScript
+menu_order: 1
+post_status: publish
+post_excerpt: Existen diferentes formas de formatear los comentarios en JavaScript. En este post te explico algunos.
+taxonomy:
+    category:
+        - Javascript
+    post_tag:
+        - Javascript-comentarios
+        - JSDocs
+        - Better-Comments-plugin
+        - VSCode-plugin
+
+---
+
+
 # Tipos de comentarios en Javascript
 
 
