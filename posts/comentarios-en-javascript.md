@@ -10,8 +10,8 @@ taxonomy:
     post_tag:
         - Javascript-comentarios
         - JSDocs
-				- Better-Comments-plugin
-				- VSCode-plugin
+        - Better-Comments-plugin
+        - VSCode-plugin
 
 ---
 
