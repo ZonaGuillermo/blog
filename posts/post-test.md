@@ -1,3 +1,18 @@
+---
+
+title: This is just a sample title
+menu_order: 1
+post_status: future
+post_excerpt: Test
+taxonomy:
+    category:
+        - Test
+    post_tag:
+        - Test
+
+---
+
+
 ## This is just a sample title
 A little test text
 
