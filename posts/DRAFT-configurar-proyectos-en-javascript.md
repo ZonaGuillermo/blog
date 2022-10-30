@@ -8,7 +8,7 @@ taxonomy:
     category:
         - Javascript
     post_tag:
-        - 
+        - jsconfig
 
 ---
 
