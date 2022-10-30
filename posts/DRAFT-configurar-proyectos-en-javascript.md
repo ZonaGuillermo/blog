@@ -1,3 +1,18 @@
+---
+
+title: 
+menu_order: 1
+post_status: draft
+post_excerpt: 
+taxonomy:
+    category:
+        - Javascript
+    post_tag:
+        - 
+
+---
+
+
 # Configurar proyectos en Javascript: jsconfig.json
 
 A la hora de crear un proyecto en javascript, en principio no necesitamos una configuración previa puesto que será el navegador el que interprete el código del archivo y lo ejecute. Sin enbargo, __es altamente recomendable__ ya que al realizar esta configuración podremos definir como debe comportarse nuestro proyecto. Esto es especialmente util en las siguientes situaciones:

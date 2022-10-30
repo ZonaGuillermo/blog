@@ -17,7 +17,10 @@ taxonomy:
 				- configuración
 				- frameworks
 
----## 1. Instala y configura Jest
+---
+
+
+## 1. Instala y configura Jest
 ---
 
 ### 1.1. __Instala Jest, la definición de tipos de Jest y jest-environment-jsdom__
