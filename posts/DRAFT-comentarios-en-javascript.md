@@ -1,6 +1,6 @@
 ---
 
-title: Comentarios en JavaScript
+title: DRAFT Comentarios en JavaScript
 menu_order: 1
 post_status: draft
 post_excerpt: Existen diferentes formas de formatear los comentarios en JavaScript. En este post te explico algunos.

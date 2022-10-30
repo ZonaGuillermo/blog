@@ -7,15 +7,15 @@ post_excerpt: Pasos a seguir para una correcta instalación y configuración de 
 taxonomy:
     category:
         - Javascript
-				- QA Testing
-				- Frontend
+        - QA Testing
+        - Frontend
     post_tag:
         - Jest
-				- Babel
-				- React
-				- instalación
-				- configuración
-				- frameworks
+        - Babel
+        - React
+        - instalación
+        - configuración
+        - frameworks
 
 ---
 
@@ -43,9 +43,9 @@ Para ello modifica o crea `jsconfig.json` en la raíz del proyecto:
 
 ```json
 {	
-	"typeAcquisition": {
-		"include": ["jest"]
-	}
+  "typeAcquisition": {
+    "include": ["jest"]
+  }
 }
 ```
 
@@ -60,16 +60,16 @@ Este archivo debe estar en la raíz del proyecto. También puede llamarse `jest.
 
 ```js
 module.exports = {
-		testEnvironment: 'jest-environment-jsdom',
-		setupFiles: ['./jest.setup.js']  // Solo para usar Fetch API en versiones anteriores a Node 18
+    testEnvironment: 'jest-environment-jsdom',
+    setupFiles: ['./jest.setup.js']  // Solo para usar Fetch API en versiones anteriores a Node 18
 }
 ```
 
 ***`jest.config.js`*** en formato `ES6`
 ```js
 export default {
-		testEnvironment: 'jest-environment-jsdom',
-		setupFiles: ['./jest.setup.js']  // Solo para usar Fetch API en versiones anteriores a Node 18
+    testEnvironment: 'jest-environment-jsdom',
+    setupFiles: ['./jest.setup.js']  // Solo para usar Fetch API en versiones anteriores a Node 18
 }
 ```
 
@@ -87,9 +87,9 @@ Para monitorizar los cambios en los test y no tener que estar recargando continu
 
 ```json
 {
-	"scripts": {
-		"test": "jest --watchAll"
-	}
+  "scripts": {
+    "test": "jest --watchAll"
+  }
 }
 ```
 
@@ -121,16 +121,16 @@ También puede llamarse `babel.config.cjs` si en `package.json` tenemos activado
 
 ```js
 module.exports = {
-	presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
 };
 ```
 
 ```js
 module.exports = {
-		presets: [
-				[ '@babel/preset-env', { targets: { esmodules: true } } ],
-				[ '@babel/preset-react', { runtime: 'automatic' } ],
-		],
+    presets: [
+        [ '@babel/preset-env', { targets: { esmodules: true } } ],
+        [ '@babel/preset-react', { runtime: 'automatic' } ],
+    ],
 };
 ```
 
@@ -139,10 +139,10 @@ module.exports = {
 ***`babel.config.json`***
 ```json
 {
-	"presets": [
-		["@babel/preset-env", {"targets": {"esmodules": true}}],
-		["@babel/preset-react", {"runtime": "automatic"}]
-	]
+  "presets": [
+    ["@babel/preset-env", {"targets": {"esmodules": true}}],
+    ["@babel/preset-react", {"runtime": "automatic"}]
+  ]
 }
 ```
 
