@@ -9,10 +9,10 @@ taxonomy:
         - Javascript
         - QA Testing
         - Frontend
-    post_tag:
         - Jest
-        - Babel
         - React
+    post_tag:
+        - Babel
         - instalación
         - configuración
         - frameworks
@@ -23,7 +23,7 @@ taxonomy:
 ## 1. Instala y configura Jest
 ---
 
-### 1.1. __Instala Jest, la definición de tipos de Jest y jest-environment-jsdom__
+### 1.1. Instala Jest, la definición de tipos de Jest y jest-environment-jsdom
 Necesitamos `@types/jest` para que funcione correctamente el IntelliSense. Instalando `jest-environment-jsdom` simulamos un entorno de pruebas para el DOM del navegador, necesario cuando creamos una web app en lugar de una aplicación de servidor (de Node).
 
 ```js
@@ -38,7 +38,7 @@ npm i -D whatwg-fetch
 
 <br>
 
-### 1.2. __Activa el IntelliSense de Jest en VSCode__.
+### 1.2. Activa el IntelliSense de Jest en VSCode.
 Para ello modifica o crea `jsconfig.json` en la raíz del proyecto:
 
 ```json
@@ -51,12 +51,12 @@ Para ello modifica o crea `jsconfig.json` en la raíz del proyecto:
 
 <br>
 
-### 1.3. __Crea y configura `jest.config.js`__ 
+### 1.3. Crea y configura `jest.config.js`
 Este archivo debe estar en la raíz del proyecto. También puede llamarse `jest.config.cjs` si en `package.json` tenemos activados los módulos.
 
 > ___RECUERDA___ que si vas a usar __Fetch API en una versión anterior a Node 18__ debes crear también el archivo `jest.setup.js`
 
-***`jest.config.js`*** (en formato `commons.js`)
+***`jest.config.js`*** en formato `commons.js`
 
 ```js
 module.exports = {
@@ -82,7 +82,7 @@ import 'whatwg-fetch';
 
 <br>
 
-### 1.4. __Configura `package.json`__
+### 1.4. Configura `package.json`
 Para monitorizar los cambios en los test y no tener que estar recargando continuamente:
 
 ```json
@@ -108,13 +108,13 @@ npm i -D @testing-library/react
 ## 3. Instala y configura Babel (para Jest y React)
 ---
 
-### 3.1. __Instala las dependencias:__
+### 3.1. Instala las dependencias:
 
 ```js
 npm i -D babel-jest @babel/core @babel/preset-env @babel-preset-react
 ```
 
-### 3.2. __Crea y configura `babel.config.js`:__
+### 3.2. Crea y configura `babel.config.js`:
 También puede llamarse `babel.config.cjs` si en `package.json` tenemos activados los módulos.
 
 [//]: # (Es una de estas dos posibilidades)
