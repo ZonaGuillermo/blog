@@ -1,6 +1,6 @@
 ---
 
-title: DRAFT Configurar proyectos en Javascript: jsconfig.json
+title: DRAFT Configurar proyectos en Javascript - jsconfig.json
 menu_order: 1
 post_status: draft
 post_excerpt: 
